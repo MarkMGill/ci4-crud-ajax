@@ -31,10 +31,10 @@ class Database extends \CodeIgniter\Database\Config
 	 */
 	public $default = [
         'DSN'      => '',
-        'hostname' => '/Applications/MAMP/tmp/mysql/mysql.sock',
-        'username' => 'test',
-        'password' => '4Mu99BhzK8dr4vF1',
-        'database' => 'demo',
+        'hostname' => '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock',
+        'username' => 'root',
+        'password' => '',
+        'database' => 'codeigniter-ajax',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,

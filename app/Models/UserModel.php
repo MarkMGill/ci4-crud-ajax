@@ -16,5 +16,19 @@ class UserModel extends Model
       }
     }
 
+    public function insert_data($data) {
+      if($this->db->table($this->table)->insert($data))
+             {
+                 return $this->db->insertID();
+             }
+             else
+             {
+                 return false;
+             }
+         }
+     
+
+    
+
 }
 ?>

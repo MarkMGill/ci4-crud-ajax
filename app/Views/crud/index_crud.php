@@ -1,7 +1,7 @@
 <div id="userTable"> </div>
 
 <script>
-    reloadTable()
+    reloadTable();
 
     function reloadTable() {
       $.ajax({
